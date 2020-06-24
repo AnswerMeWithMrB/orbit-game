@@ -75,7 +75,7 @@ function moveLauncher() {
 }
 
 function keyPressed() {
-  if (keyCode === 32) {
+  if (keyCode === 87) {
     // Fire asteroid
     fireAsteroid();
   }
