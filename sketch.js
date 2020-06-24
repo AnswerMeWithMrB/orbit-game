@@ -16,6 +16,7 @@ var G = 0.667;
 
 function setup() {
   var canvas = createCanvas(750, 750);
+  canvas.parent('sketch-holder');
   
   starColor = color(255, 255, 0);
   asteroidColor = color(255, 255, 255);
